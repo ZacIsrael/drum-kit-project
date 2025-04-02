@@ -17,30 +17,58 @@ footer {
 }
 
 .w {
+  /* adds an image to the element with this class */
+  background-image: url('./images/tom1.png');
+  background-size: cover;
+  background-position: center;
 
 }
 
 .a {
-
+  /* adds an image to the element with this class */
+  background-image: url('./images/tom2.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .s {
+  /* adds an image to the element with this class */
+  background-image: url('./images/tom3.png');
+  background-size: cover;
+  background-position: center;
 
 }
 
 .d {
+  /* adds an image to the element with this class */
+  background-image: url('./images/tom4.png');
+  background-size: cover;
+  background-position: center;
 
 }
 
 .j {
+  /* adds an image to the element with this class */
+  background-image: url('./images/snare.png');
+  background-size: cover;
+  background-position: center;
 
 }
 
 .k {
+  /* adds an image to the element with this class */
+  background-image: url('./images/crash.png');
+  background-size: cover;
+  background-position: center;
+
 
 }
 
 .l {
+  /* adds an image to the element with this class */
+  background-image: url('./images/kick.png');
+  background-size: cover;
+  background-position: center;
 
 }
 
