@@ -70,7 +70,7 @@ function playSound(key){
       audio.play();
       break;
     default:
-      console.log("A different key was pressed. key = ", keyPressed);
+      console.log("A different key was pressed. key = ", key);
   }
   
 
