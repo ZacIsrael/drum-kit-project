@@ -50,16 +50,16 @@ footer {
 .j {
   /* adds an image to the element with this class */
   background-image: url('./images/snare.png');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
 
 }
 
 .k {
   /* adds an image to the element with this class */
   background-image: url('./images/crash.png');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
 
 
 }

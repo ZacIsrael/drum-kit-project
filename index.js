@@ -11,11 +11,11 @@ for (let i = 0; i < drumButtons.length; i++) {
     // access the button
     let btn = this;
     let btnLetter = btn.innerHTML;
-    let letCol = btn.style.color;
+    // let letCol = btn.style.color;
     // console.log('this = ', btn.innerHTML)
 
     // set the color of the character to white
-    letCol = "white";
+    // letCol = "white";
 
     let audio = new Audio();
     playSound(btnLetter);
