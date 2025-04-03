@@ -18,44 +18,7 @@ for (let i = 0; i < drumButtons.length; i++) {
     letCol = "white";
 
     let audio = new Audio();
-    switch (btnLetter) {
-      case "w":
-        audio.src = "./sounds/tom-1.mp3";
-        audio.play();
-        break;
-      case "a":
-        audio.src = "./sounds/tom-2.mp3";
-        audio.play();
-        break;
-
-      case "s":
-        audio.src = "./sounds/tom-3.mp3";
-        audio.play();
-        break;
-
-      case "d":
-        audio.src = "./sounds/tom-4.mp3";
-        audio.play();
-        break;
-
-      case "j":
-        audio.src = "./sounds/snare.mp3";
-        audio.play();
-        break;
-
-      case "k":
-        audio.src = "./sounds/crash.mp3";
-        audio.play();
-        break;
-
-      case "l":
-        audio.src = "./sounds/kick-bass.mp3";
-        audio.play();
-        break;
-
-      default:
-        console.log("default case. btnLetter = ", btnLetter);
-    }
+    playSound(btnLetter);
   });
 }
 
@@ -65,9 +28,14 @@ addEventListener("keydown", function (event) {
 
   // retrieve the key that was pressed 
   let keyPressed = event.key;
-  let audio = new Audio();
+  playSound(keyPressed);
+});
 
-  switch (keyPressed) {
+// plays sound based on the letter 
+function playSound(key){
+
+  let audio = new Audio();
+  switch (key) {
     case "w":
       audio.src = "./sounds/tom-1.mp3";
       audio.play();
@@ -104,8 +72,15 @@ addEventListener("keydown", function (event) {
     default:
       console.log("A different key was pressed. key = ", keyPressed);
   }
-});
+  
 
+}
+
+
+
+
+
+/*
 // this function is called when a button is clicked
 function handleClick() {
   // debugging purposes
@@ -152,3 +127,4 @@ function handleClick() {
     audio.play();
   }
 }
+*/
